@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Leonardo_Bank</string>
+    <string name="user">Usuario:</string>
+    <string name="password">Senha:</string>
+    <string name="hintpassword">Digite sua senha</string>
+    <string name="hintUser">Digite seu login</string>
+    <string name="enter">Entrar</string>
+</resources>
