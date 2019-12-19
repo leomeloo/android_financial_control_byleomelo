@@ -30,8 +30,9 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 if(tuser.getText().toString().equals("leomeloo") && tpassword.getText().toString().equals("123")) {
-                    Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
-                    startActivity(intent);
+                    Toast.makeText(getApplicationContext(), "Usuario ou senha invalido", Toast.LENGTH_LONG).show();
+//                  Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+//                  startActivity(intent);
                 }
                 else
                     Toast.makeText(getApplicationContext(), "Usuario ou senha invalido", Toast.LENGTH_LONG).show();
